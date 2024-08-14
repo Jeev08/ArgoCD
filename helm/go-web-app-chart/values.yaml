@@ -8,7 +8,7 @@ image:
   repository: shettysuraksha/argocd
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10363197377"
+  tag: "10391338829"
 
 ingress:
   enabled: false
