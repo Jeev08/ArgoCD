@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: shettysuraksha/argocd:{{ .Values.image.tag }}
+        image: jeevanshetty/cicd:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
